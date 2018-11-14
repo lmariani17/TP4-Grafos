@@ -1,13 +1,16 @@
 package grafos;
 
+import java.util.Vector;
+
 public class MatrizSimetrica {
 	
-	public int[] generarMatriz(int cantNodos, int[][] listadoAdyacencia) {
-		int[][] matrizAdyacencia = new int[cantNodos][cantNodos];
+	public Vector<Vector<Integer>> generarMatriz(int cantNodos, int[][] listadoAdyacencia) {
+		Vector<Vector<Integer>> vector = new Vector<Vector<Integer>>();
 		
 		for (int i = 0; i < listadoAdyacencia.length; i++) {
-			int[] adyacencia = new int[nodos]
-			
+			int origen = listadoAdyacencia[i][0];
+			int destino = listadoAdyacencia[i][1];
+			vector.get( origen ).addElement(destino);
 		}
 		return vector;
 	}
