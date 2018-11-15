@@ -113,6 +113,6 @@ public abstract class Generador {
 	public static void main(String[] args) throws FileNotFoundException {
 		//GrafoPorProbabilidad nuevo = new GrafoPorProbabilidad(100, 0.7);
 		//GrafoPorGrado nuevo2 = new GrafoPorGrado(100, 3);
-		GrafoAleatorioPorProbDeArista nuevo3 = new GrafoAleatorioPorProbDeArista(100, 0.1);
+		//GrafoAleatorioPorProbDeArista nuevo3 = new GrafoAleatorioPorProbDeArista(100, 0.1);
 	}
 }
